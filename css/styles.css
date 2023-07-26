@@ -1,0 +1,553 @@
+:root {
+    --color-background: white, #FFF;
+    --color-background: navyblue, #2E2F42;
+    --color-background: ocean, #404BBF;
+    --color-background: slate, #434455;
+    
+
+    --font-heading: 'Raleway', serif;
+    --font-text: 'Roboto', sans-serif;
+
+    --font-color: slate, #434455;
+    --font-color: iris, #4D5AE5;
+    --font-color: navyblue, #2E2F42;
+    
+
+}
+
+
+.fillter-web-links a:hover,
+.fillter-contact-links:hover {
+    color: var(--iris, #4D5AE5);
+}
+
+.fillter-web-links a:visited,
+.fillter-contacts-links a:visited {
+    color: var(rgb(153, 66, 8), #964B00);
+}
+
+.fillter-web-links a:active,
+.fillter-contact-links:active {
+    color: var(navyblue, #2E2F42);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+        width: auto;
+        justify-content: space-around;
+        height: 72px;
+        align-items: center;
+        flex-shrink: 0;
+        border-bottom: 1px solid var(--cornflower, #E7E9FC);
+            background: var(--white, #FFF);
+}
+
+body {
+    margin: 0;
+    min-height: 100%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+button {
+        padding: 0;
+        border: 0;
+        text-decoration: none;
+        appearance: none;
+        background-color: transparent;
+}
+
+.social-links li a:hover,   
+.social-links li a:focus {
+        padding: 12px 24px;
+        border-radius: 4px;
+        color: var(--white, #FFF);
+        background: var(--ocean, #404BBF);
+        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+
+.container {
+    width: 1158px;
+}
+
+.social-links li a {
+        padding: 12px 24px;
+        border-radius: 4px;
+        border: 1px solid var(--cornflower, #E7E9FC);
+        background: var(--cloud, #F4F4FD);
+}
+
+.fillter-web-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    gap: 35px 40px;
+    width: auto;
+    height: 72px;
+    flex-shrink: 0;
+    border-bottom: 1px solid var(--cornflower, #E7E9FC);
+    background: var(--white, #FFF);
+    cursor: url(cursors/finger.svg), auto;
+}
+
+
+.fillter-contact-links {
+    display: flex;
+    --font-color: var(--slate, #434455);
+    /* Body */
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.5em;
+    gap: 40px;
+    /* 150% */
+    letter-spacing: 0.23px;   
+}
+
+.fillter-studio {
+    display: flex;
+    width: 44px;
+    height: fit-content;
+    padding: 0px;
+    color: var(--iris, #4D5AE5);
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 1.2em;
+        text-decoration: none;
+        text-decoration-line: none;
+        text-decoration-style: none;
+        /* 116.667% */
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+}
+
+.fillter-menu-links {
+        display: flex;
+        height: 24px;
+        width: fit-content;
+        align-items: center;
+        flex-shrink: 0;
+}
+
+.fillter-links {
+    color: var(--navyblue, #2E2F42);
+        /* Body Medium */
+        width: 67px;
+        height: 24px;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5em;
+        gap: 40px;
+        align-items: flex-start;
+        /* 150% */
+        letter-spacing: 0.32px;
+}
+
+nav li .fillter-links {
+    display: inline-block;
+}
+
+.fillter-name {
+    display: inline-flex;
+    margin-right: auto;
+    width: 71px;
+    padding-left: 0px;
+    color: var(--navyblue, #2E2F42);
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 1.2em;
+        /* 116.667% */
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+}
+
+
+.main-info {
+    display: flex;
+    background: var(--navyblue, #2E2F42);
+    width: auto;
+        height: 600px;
+        flex-shrink: 0;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+
+}
+
+.fillter-service-btn {
+    color: var(--white, #FFF);
+        /* Button Text */
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5em;
+        /* 150% */
+        letter-spacing: 0.64px;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--iris, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.fillter-business {
+    display: flex;
+    width: 496px;
+    color: var(--white, #FFF);
+        text-align: center;
+        /* Header 1 */
+        font-family: Roboto;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1em;
+        /* 107.143% */
+        letter-spacing: 1.12px;
+}
+
+.order-service {
+    align-items: center;
+    width: 496px;
+    color: var(--white, #FFF);
+        text-align: center;
+    
+        /* Header 1 */
+        font-family: Roboto;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1em;
+        /* 107.143% */
+        letter-spacing: 1.12px;
+}
+
+.fillter-order-service {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+        color: var(--iris, #4D5AE5);
+        text-align: center;
+        /* Button Text */
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5em;
+        /* 150% */
+        letter-spacing: 0.64px;
+        cursor: url(cursors/finger.svg), auto;
+}
+
+.side-info {
+    display: flex;
+        justify-content: space-between;
+        gap: 24px;
+        flex-direction: row;
+        width: 264px;
+        margin-left: 304px;
+}
+
+.fillter-paragraph {
+    display: flex;
+    height: auto;
+    width: 264px;
+    color: var(--navyblue, #2E2F42);
+        /* Header 3 */
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2em;
+        /* 120% */
+        letter-spacing: 0.4px;
+        margin: 0px;
+}
+
+.fillter-row-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.studio-info {
+    width: 1128px;
+    height: 412px;
+    flex-shrink: 0;
+    margin-top: 552px;
+}
+
+.fillter-team-section {
+    flex-shrink: 0;
+    width: 1440px;
+    height: 732px;
+
+}
+
+.team   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--navyblue, #2E2F42);
+        text-align: center;
+        /* Header 2 */
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.1em;
+        /* 111.111% */
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+        margin: 0;
+}
+
+.fillter-team-info {
+    display: inline-flex;
+        padding-bottom: 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        border-radius: 0px 0px 4px 4px;
+            background: var(--white, #FFF);
+            box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.fillter-team-names {
+    color: var(--navyblue, #2E2F42);
+        text-align: center;
+        /* Header 3 */
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2em;
+        /* 120% */
+        letter-spacing: 0.4px;
+        gap: 8px;
+        margin-bottom: 0px;
+
+}
+
+.fillter-team-ocupation {
+    color: var(--slate, #434455);
+        text-align: center;
+        /* Body */
+        font-family: Roboto;
+        font-size: 16px;
+        line-height: 1.5em;
+        /* 150% */
+        letter-spacing: 0.32px;
+        margin-top: 0px;
+}
+
+menu,
+li {
+    list-style-type: none;
+}
+
+.fillter-item {
+    color: var(--white, #FFF);
+        text-align: inherit;
+        /* Button Text */
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5em;
+        cursor: url(cursors/finger.svg), auto;
+        /* 150% */
+        letter-spacing: 0.64px;
+        text-decoration: none;
+        padding: 12px 24px;
+        
+}
+
+.social-links {
+    display: flex;
+        padding: 12px 24px;
+        justify-content: center;
+        align-items: center;
+        color: var(--white, #FFF);
+        text-align: center;
+        text-emphasis: none;
+        text-decoration: none;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5em;
+        gap: 24px; 
+        /* 150% */
+        letter-spacing: 0.64px;
+       
+}
+
+.portfolio-list {
+        margin-inline: 15% 15%;
+        width: 360px;
+        flex-direction: column;
+        align-items: normal;
+        gap: 24px;
+        flex-shrink: 0;
+        background: var(--white, #FFF);
+        display: grid;
+        padding: 1em;
+        grid-template-columns: repeat(3, 1fr);
+}
+
+.portfolio-list li {
+    border: 1px solid var(--cornflower, #E7E9FC);
+}
+
+.portfolio-list li .fillter-portfolio-text {
+    gap: 32px;
+}
+
+.fillter-portfolio-maintext {
+    display: inline;
+    width: 290px;
+    height: 24px;
+    color: var(--navyblue, #2E2F42);
+    
+        /* Header 3 */
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2em;
+        /* 120% */
+        letter-spacing: 0.4px;
+        width: 360px;
+        height: 420px;
+        padding-bottom: 0px;
+        flex-direction: column;
+        flex-shrink: 0;
+        background: var(--white, #FFF);
+}
+
+.fillter-portfolio-sidetext {
+    display: flex;
+        flex-direction: row;
+        width: fit-content;
+        height: 24px;
+        color: var(--slate, #434455);
+        /* Body */
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5em;
+        /* 150% */
+        letter-spacing: 0.32px;
+}
+
+.fillter-bottom-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    height: 312px;
+    background: var(--navyblue, #2E2F42);
+}
+
+.fillter-bottom-studio {
+    display: flex;
+    width: 44px;
+    height: fit-content;
+    padding: 0px;
+    color: var(--iris, #4D5AE5);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.2em;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: none;
+    /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.fillter-footer-name {
+    display: flex;
+    width: 71px;
+    height: 21px;
+    padding: 0%;
+    flex-direction: column;
+    justify-content: left;
+    color: var(--cloud, #F4F4FD);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.2em;
+    /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    
+}
+
+.fillter-footer-info {
+    display: flex;
+    width: 264px;
+    height: fit-content;
+    color: var(--cloud, #F4F4FD);
+        /* Body */
+        font-family: Roboto;
+        font-size: 16px;
+        line-height: 1.5em;
+        /* 150% */
+        letter-spacing: 0.32px;
+        margin: 0px 0px 0px 0px;
+        gap: 18px;
+        justify-content: center
+        
+}
+
+.fillter-studio-info {
+    width: 1128px;
+    height: 412px;
+    margin: 0px 0px 0px 0px;
+       
+}
+
+.fillter-studio-paragraph {
+    display: flex;
+        color: var(--navyblue, #2E2F42);
+        text-align: center;
+        /* Header 2 */
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.1em;
+        /* 111.111% */
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+        justify-content: center;
+}
+
+.fillter-paragraph-info {
+    width: 264px;
+    height: fit-content;
+    margin: 0px 0px 0px 0px;
+    color: var(--slate, #434455);
+
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.5em;
+    /* 150% */
+    letter-spacing: 0.32px;
+}
+
+.fillter-bottom-section a,
+.fillter-bottom-section p {
+    margin-left: 165px;
+}
