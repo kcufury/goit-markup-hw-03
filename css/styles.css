@@ -16,15 +16,23 @@
 
 }
 
-.fillter-web-links a:focus,
+.fillter-contact:hover {
+    color: var(--iris, #4D5AE5);
+}
+
+.fillter-contact:focus {
+    color: var(--iris, #4D5AE5);
+}
+
 .fillter-web-links a:hover {
     color: var(--iris, #4D5AE5);
 }
 
-.fillter-contact:focus,
-.fillter-contact:hover {
+.fillter-web-links a:focus {
     color: var(--iris, #4D5AE5);
+    
 }
+
 
 .social-links a:hover {
     padding: 12px 24px;
@@ -203,12 +211,12 @@ button {
     font-family: Raleway;
     font-size: 18px;
     font-weight: 800;
-    line-height: 1.16;
+    line-height: 1.17;
     text-decoration: none;
     text-decoration-line: none;
     text-decoration-style: none;
     /* 116.667% */
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -231,7 +239,7 @@ button {
     gap: 40px;
     align-items: flex-start;
     /* 150% */
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 nav li .fillter-links {
@@ -285,6 +293,14 @@ nav li .fillter-links {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
+.fillter-service-btn:hover {
+    background-color: var(--iris, #404BBF);
+}
+
+.fillter-service-btn:focus {
+    background-color: var(--iris, #404BBF);
+}
+
 .fillter-business {
     display: flex;
     width: 496px;
@@ -326,7 +342,7 @@ nav li .fillter-links {
     line-height: 1.5;
     /* 150% */
     letter-spacing: 0.64px;
-    cursor: url(cursors/pointer.svg), auto;
+    cursor: pointer;
 }
 
 .side-info {
@@ -350,7 +366,7 @@ nav li .fillter-links {
     font-weight: 500;
     line-height: 1.2;
     /* 120% */
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
     margin: 0px;
 }
 
@@ -376,9 +392,7 @@ nav li .fillter-links {
     align-content: flex-start;
     align-items: center;
     margin-top: 120px;
-    background: var(--cloud, #f4f4fd);
-
-
+    background: var(--white, #FFFFFF);
 }
 
 .team {
@@ -415,10 +429,9 @@ nav li .fillter-links {
     text-align: center;
     /* Header 3 */
     font-size: 20px;
-    font-weight: 500;
     line-height: 1.2;
     /* 120% */
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
     gap: 8px;
     margin-bottom: 0px;
 
@@ -431,7 +444,7 @@ nav li .fillter-links {
     font-size: 16px;
     line-height: 1.5;
     /* 150% */
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
     margin-top: 0px;
 }
 
@@ -451,7 +464,7 @@ li {
     letter-spacing: 0.64px;
     text-decoration: none;
     padding: 12px 24px;
-    cursor: url(cursors/pointer.svg), auto;
+    cursor: pointer;
 }
 
 .social-links {
@@ -551,12 +564,12 @@ li {
     font-family: Raleway;
     font-size: 18px;
     font-weight: 800;
-    line-height: 1.2;
+    line-height: 1.17;
     text-decoration: none;
     text-decoration-line: none;
     text-decoration-style: none;
     /* 116.667% */
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -571,7 +584,7 @@ li {
     font-family: Raleway;
     font-size: 18px;
     font-weight: 800;
-    line-height: 1.16;
+    line-height: 1.17;
     /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
@@ -587,7 +600,7 @@ li {
     font-size: 16px;
     line-height: 1.5;
     /* 150% */
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
     margin: 0px 0px 0px 0px;
     gap: 18px;
     justify-content: center
@@ -600,7 +613,6 @@ li {
     height: 412px;
     flex-direction: column;
     margin-top: 120px;
-
 }
 
 .fillter-img {
@@ -617,7 +629,7 @@ li {
     font-weight: 700;
     line-height: 1.11;
     /* 111.111% */
-    letter-spacing: 0.72px;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
     justify-content: center;
 }
@@ -627,10 +639,9 @@ li {
     height: fit-content;
     margin: 0px 0px 0px 0px;
     color: var(--slate, #434455);
-
     /* Body */
     font-size: 16px;
     line-height: 1.5;
     /* 150% */
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
