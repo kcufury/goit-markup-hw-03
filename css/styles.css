@@ -36,7 +36,7 @@
 }
 
 
-.social-links a:hover {
+.social-links button:hover {
     padding: 12px 24px;
     border-radius: 4px;
     color: var(--white, #FFFFFF);
@@ -44,7 +44,7 @@
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
-.social-links a:focus {
+.social-links button:focus {
     padding: 12px 24px;
     border-radius: 4px;
     color: var(--white, #FFFFFF);
@@ -488,7 +488,7 @@ li {
     list-style-type: none;
 }
 
-.fillter-item {
+.fillter-item button{
     --brand-color: var(--iris, #4D5AE5);
     text-align: inherit;
     /* Button Text */
