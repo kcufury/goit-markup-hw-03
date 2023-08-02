@@ -7,12 +7,10 @@
     --font-heading: 'Raleway', serif;
     --font-text: 'Roboto', sans-serif;
 
-    --font-color: slate, #434455;
-    --font-color: navyblue, #2E2F42;
+    --font-alt-color: slate, #434455;
+    --font-main-color: navyblue, #2E2F42;
 
     --brand-color: iris, #4D5AE5;
-
-
 
 }
 
@@ -239,6 +237,7 @@ button {
 }
 
 .fillter-logo-links {
+    display: flex;
     align-items: center;
     height: 24px;
     width: fit-content;
@@ -300,8 +299,6 @@ nav li .fillter-links {
 .main-info {
     display: flex;
     background: var(--navyblue, #2E2F42);
-    width: auto;
-    height: 600px;
     flex-shrink: 0;
     flex-direction: column;
     flex-wrap: nowrap;
