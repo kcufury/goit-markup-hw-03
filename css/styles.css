@@ -190,7 +190,8 @@ button {
     width: fit-content;
     align-items: center;
     flex-shrink: 0;
-    margin: 0px 0px 18px 156px;
+    margin: 55px 0px 18px 156px;
+    padding: 34px 0px 0px 0px;
 }
 
 .fillter-links a{
@@ -318,12 +319,6 @@ nav li .fillter-links {
     gap: 8px;
 }
 
-.studio-info {
-    width: 1128px;
-    height: 412px;
-    flex-shrink: 0;
-    margin-top: 552px;
-}
 
 .fillter-team-section {
     display: flex;
@@ -351,7 +346,6 @@ nav li .fillter-links {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     padding-top: 120px;
-    padding-bottom: 120px;
     flex-direction: column;
 }
 
@@ -360,8 +354,7 @@ nav li .fillter-links {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin: auto;
-    height: 380px;
+    margin: 72px 12px 0px 12px;
     border-radius: 0px 0px 4px 4px;
     background: var(--background-main-color);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -375,7 +368,6 @@ nav li .fillter-links {
     line-height: 1.2;
     /* 120% */
     letter-spacing: 0.02em;
-    gap: 8px;
     padding: 32px 0px 0px 0px;
 
 }
@@ -388,7 +380,8 @@ nav li .fillter-links {
     line-height: 1.5;
     /* 150% */
     letter-spacing: 0.02em;
-    margin-top: 0px;
+    margin: 0px 0px 19px 0px;
+    padding: 16px 0px 15px 0px;
 }
 
 menu,
@@ -425,7 +418,7 @@ li {
     /* 150% */
     letter-spacing: 0.02em;
     margin-top: 96px;
-        margin-left: 191px;
+    margin-left: 191px;
 }
 
 .social-links button{
@@ -488,8 +481,7 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: auto;
-    height: 312px;
+    width: 1440px;
     background: var(--font-main-color);
 }
 
@@ -536,7 +528,8 @@ li {
     line-height: 1.5;
     /* 150% */
     letter-spacing: 0.02em;
-    margin: 0px 0px 0px 156px;
+    margin: 0px 0px 68px 156px;
+    padding: 0px 0px 43px 0px;
     justify-content: center
 }
 
@@ -544,7 +537,6 @@ li {
     display: flex;
     margin: auto;
     width: 1128px;
-    height: 412px;
     flex-direction: column;
 }
 
