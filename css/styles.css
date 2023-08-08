@@ -83,7 +83,7 @@ header {
 
 body {
     font-family: "Roboto", sans-serif;
-    margin: 0;
+    margin: auto;
     width: 1440px;
     min-height: 100%;
     background: var(--background-main-color);
@@ -431,8 +431,8 @@ li {
 
 .portfolio-list {
     width: 360px;
-    padding: 0;
-    margin: 72px 156px 120px 156px;
+    margin: 0;
+    padding: 72px 156px 120px 156px;
     flex-direction: column;
     align-items: normal;
     flex-shrink: 0;
@@ -454,7 +454,9 @@ li {
 }
 
 .fillter-portfolio-maintext {
-    display: inline;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     color: var(--font-main-color);
     /* Header 3 */
     font-size: 20px;
@@ -463,10 +465,14 @@ li {
     /* 120% */
     letter-spacing: 0.4px;
     padding: 0px 16px 8px 16px;
+    padding-left: 16px;
+    padding-top: 32px;
     background: var(--background-main-color);
 }
 
 .fillter-portfolio-sidetext {
+    display: flex;
+    flex-direction: row;
     width: fit-content;
     color: var(--font-secondary-color);
     /* Body */
@@ -474,7 +480,9 @@ li {
     line-height: 1.5;
     /* 150% */
     letter-spacing: 0.32px;
-    padding: 0px 0px 0px 16px;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 18px;
 }
 
 .fillter-bottom-section {
