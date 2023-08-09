@@ -20,6 +20,11 @@
     padding: 0;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 .fillter-contact-1 a:hover,
 .fillter-contact-2 a:hover {
     color: var(--brand-color);
@@ -61,10 +66,13 @@
 .container {
     display: flex;
     align-items: center;
-    justify-content: center;
     width: 1158px;
     margin: 0;
-    padding: 0 15px 0 15px;
+    padding: 0 15px 0 156px;
+}
+
+.child {
+    display: flex;
 }
 
 .section {
@@ -329,7 +337,7 @@ nav li .fillter-links {
     flex-direction: column;
     align-content: flex-start;
     align-items: center;
-    padding-top: 120px;
+    padding-bottom: 120px;
     background: var(--background-secondary-color);
 }
 
@@ -346,7 +354,7 @@ nav li .fillter-links {
     /* 111.111% */
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    padding-top: 120px;
+    padding-bottom: 120px;
     flex-direction: column;
 }
 
@@ -430,16 +438,14 @@ li {
 }
 
 .portfolio-list {
-    width: 360px;
-    margin: 0;
-    padding: 72px 156px 120px 156px;
-    flex-direction: column;
-    align-items: normal;
-    flex-shrink: 0;
     background: var(--background-main-color);
     display: grid;
+    align-items: center;
+    justify-items: center;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 48px 24px;
+    padding-bottom: 120px;
+    
 }
 
 .border-box {
@@ -496,7 +502,6 @@ li {
 .fillter-bottom-studio {
     display: flex;
     width: 44px;
-    padding: 0px;
     color: var(--brand-color);
     font-family: Raleway;
     font-size: 18px;
@@ -514,7 +519,6 @@ li {
 .fillter-footer-name {
     display: flex;
     width: 71px;
-    padding: 0%;
     flex-direction: column;
     justify-content: left;
     color: var(--background-secondary-color);
@@ -536,9 +540,8 @@ li {
     line-height: 1.5;
     /* 150% */
     letter-spacing: 0.02em;
-    padding: 0px 0px 111px 156px;
-    margin: 0;
-    justify-content: center
+    padding-left: 156px;
+    padding-bottom: 100px;
 }
 
 .fillter-studio-info {
@@ -570,7 +573,6 @@ li {
 
 .fillter-paragraph-info {
     width: 264px;
-    margin: 0;
     color: var(--font-secondary-color);
     /* Body */
     font-size: 16px;
