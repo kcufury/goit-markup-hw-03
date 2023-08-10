@@ -20,9 +20,27 @@
     padding: 0;
 }
 
-ul {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 0;
-    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
 }
 
 .fillter-contact-1 a:hover,
@@ -61,8 +79,8 @@ ul {
 
 .container {
     width: 1158px;
-    margin: 0;
-    padding: 0 15px 0 156px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .child {
@@ -89,9 +107,6 @@ header {
 
 body {
     font-family: "Roboto", sans-serif;
-    margin: auto;
-    width: 1440px;
-    min-height: 100%;
     background: var(--background-main-color);
 
 }
@@ -155,7 +170,9 @@ button {
     display: flex;
     color: var(--font-secondary-color);
     /* Body */
+    font-family: var(--font-text);
     text-align: center;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     /* 150% */
@@ -169,7 +186,7 @@ button {
     width: 44px;
     padding: 0px;
     color: var(--brand-color);
-    font-family: Raleway;
+    font-family: var(--font-heading);
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
@@ -196,7 +213,7 @@ button {
     width: fit-content;
     align-items: center;
     flex-shrink: 0;
-    padding: 89px 0px 18px 0px;
+    margin-bottom: 16px;
     margin: 0;
 }
 
@@ -205,6 +222,7 @@ button {
     color: var(--font-main-color);
     /* Body Medium */
     width: fit-content;
+    font-family: var(--font-text);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -227,7 +245,7 @@ nav li .fillter-links {
     width: 71px;
     padding-left: 0px;
     color: var(--font-main-color);
-    font-family: Raleway;
+    font-family: var(--font-heading);
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
@@ -254,6 +272,7 @@ nav li .fillter-links {
     padding: 16px 32px;
     align-items: flex-start;
     gap: 10px;
+    font-family: var(--font-text);
     border-radius: 4px;
     background: var(--brand-color);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -274,6 +293,7 @@ nav li .fillter-links {
     color: var(--background-main-color);
     text-align: center;
     /* Header 1 */
+    font-family: var(--font-text);
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
@@ -290,6 +310,7 @@ nav li .fillter-links {
     background: none;
     text-align: center;
     /* Button Text */
+    font-family: var(--font-text);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -311,6 +332,7 @@ nav li .fillter-links {
     width: 264px;
     color: var(--font-main-color);
     /* Header 3 */
+    font-family: var(--font-text);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -339,6 +361,7 @@ nav li .fillter-links {
     color: var(--font-main-color);
     text-align: center;
     /* Header 2 */
+    font-family: var(--font-text);
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -371,11 +394,12 @@ nav li .fillter-links {
     color: var(--font-main-color);
     text-align: center;
     /* Header 3 */
+    font-family: var(--font-text);
     font-size: 20px;
     line-height: 1.2;
     /* 120% */
     letter-spacing: 0.02em;
-    padding: 32px 0px 0px 0px;
+    padding: 32px 0;
 
 }
 
@@ -383,6 +407,7 @@ nav li .fillter-links {
     color: var(--font-secondary-color);
     text-align: center;
     /* Body */
+    font-family: var(--font-text);
     font-size: 16px;
     line-height: 1.5;
     /* 150% */
@@ -399,6 +424,7 @@ li {
 .fillter-item button{
     text-align: inherit;
     /* Button Text */
+    font-family: var(--font-text);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -417,6 +443,7 @@ li {
     text-align: center;
     text-emphasis: none;
     text-decoration: none;
+    font-family: var(--font-text);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -432,7 +459,7 @@ li {
     color: var(--brand-color);
     padding: 12px 24px;
     border-radius: 4px;
-    border: 1px solid var(--cornflower,#E7E9FC);
+    border: none;
     background: var(--background-secondary-color);
 }
 
@@ -464,6 +491,7 @@ li {
     flex-wrap: nowrap;
     color: var(--font-main-color);
     /* Header 3 */
+    font-family: var(--font-text);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -484,6 +512,7 @@ li {
     font-size: 16px;
     line-height: 1.5;
     /* 150% */
+    font-family: var(--font-text);
     letter-spacing: 0.32px;
     padding-left: 16px;
     padding-bottom: 32px;
@@ -491,18 +520,15 @@ li {
 }
 
 .fillter-bottom-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 1440px;
     background: var(--font-main-color);
+    padding: 100px 0;
 }
 
 .fillter-bottom-studio {
     display: flex;
     width: 44px;
     color: var(--brand-color);
-    font-family: Raleway;
+    font-family: var(--font-heading);
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
@@ -521,7 +547,7 @@ li {
     flex-direction: column;
     justify-content: left;
     color: var(--background-secondary-color);
-    font-family: Raleway;
+    font-family: var(--font-heading);
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
@@ -535,23 +561,22 @@ li {
     width: 264px;
     color: var(--background-secondary-color);
     /* Body */
+    font-family: var(--font-text);
     font-size: 16px;
     line-height: 1.5;
     /* 150% */
     letter-spacing: 0.02em;
-    padding-bottom: 100px;
 }
 
 .fillter-studio-info {
     display: flex;
     padding-bottom: 120px;
-    width: 1128px;
     flex-direction: column;
 }
 
 .fillter-img {
     display: flex;
-    gap: 40px;
+    gap: 24px;
 }
 
 .fillter-studio-paragraph {
@@ -560,6 +585,7 @@ li {
     color: var(--font-main-color);
     text-align: center;
     /* Header 2 */
+    font-family: var(--font-text);
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -573,6 +599,7 @@ li {
     width: 264px;
     color: var(--font-secondary-color);
     /* Body */
+    font-family: var(--font-text);
     font-size: 16px;
     line-height: 1.5;
     /* 150% */
